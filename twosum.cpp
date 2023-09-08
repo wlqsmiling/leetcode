@@ -1,13 +1,11 @@
 #include <vector>
 #include <map>
 #include <iostream>
+#include "twosum.h"
+
 using namespace std;
 
-class Solution
-{
-public:
-    vector<int> twoSum(vector<int> &nums, int target)
-    {
+vector<int> Solution::twoSum(vector<int> &nums,int target) {
         vector<int> result;
 
         int count = nums.size();
@@ -28,17 +26,4 @@ public:
             }
         }
         return result;
-    }
-};
-int main()
-{
-    vector<int> test = {1, 2, 3, 4};
-    Solution sol;
-    vector<int> ret = sol.twoSum(test, 5);
-
-    for (int item : ret)
-    {
-        cout << item << endl;
-    }
-    return 0;
 }
