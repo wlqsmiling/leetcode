@@ -23,6 +23,9 @@ public:
                     break;
                 }
             }
+            if(result.size() > 0) {
+                break;
+            }
         }
         return result;
     }

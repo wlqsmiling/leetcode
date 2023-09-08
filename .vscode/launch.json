@@ -8,7 +8,7 @@
             "name": "(lldb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/twosum",
+            "program": "${workspaceFolder}/Tutorial",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
