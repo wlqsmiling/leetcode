@@ -7,7 +7,6 @@ using namespace std;
 
 vector<int> Solution::twoSum(vector<int> &nums,int target) {
         vector<int> result;
-
         int count = nums.size();
 
         for (int i = 0; i < count; i++)
@@ -25,5 +24,7 @@ vector<int> Solution::twoSum(vector<int> &nums,int target) {
                 break;
             }
         }
+
+        printf("haha");
         return result;
 }
